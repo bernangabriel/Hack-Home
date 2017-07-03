@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+<!--Correo-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Correo"
+        android:textSize="16dp"
+        android:textColor="#fff" />
+    <EditText
+        android:id="@+id/Correo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+<!--Contrasena-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Contrasena"
+        android:textSize="16dp"
+        android:textColor="#fff" />
+    <EditText
+        android:id="@+id/Contrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:inputType="textPassword"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnValidar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Validar"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

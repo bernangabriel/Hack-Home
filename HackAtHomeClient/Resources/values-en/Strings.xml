@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ApplicationName">Hack@Home</string>
+  <string name="Correo">Email: </string>
+  <string name="Contrasena">Password:</string>
+  <string name="Validar">Validate</string>
+  <string name="Evidencias">Evidences</string>
+  <string name="Descripcion">Description</string>
+  <string name="DatosIncorrectosTitle">Incorrect Dat</string>
+  <string name="DatosIncorrectosMessage">The email or password entered is incorrect</string>
+  <string name="Cargando">Loading, please wait...</string>
+</resources>
